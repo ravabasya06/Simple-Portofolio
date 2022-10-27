@@ -125,7 +125,7 @@ body{
     color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: center;
     width: auto;
     height: 300px;
@@ -137,7 +137,13 @@ body{
     padding: 0px;
     flex-wrap: wrap;
     justify-content: center;
-
+}
+#project-list li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 #project-list ul li a{
     padding: 20px;
