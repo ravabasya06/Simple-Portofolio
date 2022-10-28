@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1000px){
+    #project-list{
+        flex-direction: column;
+    }
+    #section-project{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 665px){
     #navbar{
         flex-direction: column;
         align-items: center;
@@ -9,10 +17,22 @@
         margin: 0px;
         flex-wrap: wrap;
     }
+    #section-project{
+        height: 900px;
+    }
 }
-@media screen and (max-width: 1000px){
-    #project-list{
+@media screen and (max-width: 390px){
+    #navbar{
         flex-direction: column;
+        align-items: center;
+    }
+    #project-list ul{
+        flex-direction: column;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    #section-project{
+        height: 1100px;
     }
 }
 *{
@@ -24,7 +44,7 @@
 	font-weight: bold;
 }
 body{
-	margin: 0;
+	margin: 0px;
     background-color: #2E293D;
 }
 
