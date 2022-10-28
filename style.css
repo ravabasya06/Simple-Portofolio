@@ -24,11 +24,41 @@
         justify-content: center;
         text-align: center;
     }
+    #nav-title{
+        padding: 0px;
+    }
     #navbar ul{
         padding: 0px;
     }
-    #nav-title{
+}
+@media screen and (max-width: 665px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #navbar:hover{
+        height: 0px;
+    }
+    #project-list ul{
+        flex-direction: column;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    #section-project{
+        height: 900px;
+    }
+    #section-socmed div{
+        flex-direction: column;
+    }
+    #navbar ul{
         padding: 0px;
+    }
+    #navbar ul li a{
+        padding: 10px;
+    }
+    #navbar ul li a:hover{
+        padding: 10px;
     }
 }
 @media screen and (max-width: 650px){
@@ -54,32 +84,6 @@
         padding: 10px;
     }
 }
-@media screen and (max-width: 665px){
-    #navbar{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    #project-list ul{
-        flex-direction: column;
-        margin: 0px;
-        flex-wrap: wrap;
-    }
-    #section-project{
-        height: 900px;
-    }
-    #section-socmed div{
-        flex-direction: column;
-    }
-    #navbar ul{
-        padding: 0px;
-    }
-    #navbar a{
-        padding: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
 @media screen and (max-width: 465px){
     #navbar{
         flex-direction: column;
@@ -102,13 +106,34 @@
         padding: 0px;
     }
     #navbar ul li a{
-        padding: 10px;
+        padding: 7px;
+        margin: 0px;
+    }
+    #navbar ul li a:hover{
+        padding: 7px;
+        margin: 0px;
     }
 }
 @media screen and (max-width: 390px){
     #navbar{
         flex-direction: column;
         align-items: center;
+        padding: 50px;
+        padding-top: 10px;   
+        justify-content: center;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #navbar ul{
+        padding: 0px;
+        font-size: 15px;
+    }
+    #navbar ul i{
+        font-size: 15px;
+    }
+    #nav-title{
+        padding: 0px;
     }
     #project-list ul{
         flex-direction: column;
