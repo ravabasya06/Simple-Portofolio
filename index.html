@@ -1,71 +1,233 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="https://64.media.tumblr.com/2e972021e2ea47370b169477771e599b/e05ed8993097dd72-36/s640x960/3c63772d0b9edde091e4889a5fb0b1624e35e111.jpg">
-	<script src="https://kit.fontawesome.com/c328d8982e.js" crossorigin="anonymous"></script>
-	<title>Rava Basya | Portofolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="ravabasya06">
-</head>
-<body>
-	<main id="main-page">
-		<nav id="navbar">
-			<p id="nav-title">RavGX</p>
-			<ul>
-				<li><a class="navlink" href="#">About <i class="fas fa-info-circle"></i></a></li>
-				<li><a class="navlink" href="#section-project">Project <i class="fas fa-tools"></i></a></li>
-				<li><a class="navlink" href="#section-socmed">Social Media <i class="fas fa-icons"></i></a>
-			</ul>
-		</nav>
-		<section id="section-profile">
-			<br>
-			<a href="https://osu.ppy.sh/users/13606756" target="_blank"><img id="profile-image" src="https://64.media.tumblr.com/4e779bfe879ae3bfee076aebbe44e551/fd0e6d60479e44d2-b7/s540x810/842bf08c51a9f9775014b1f4574f417d2c680f69.jpg"></img></a>
-			<h1 id="judul">Hello, i'm Rava.</h1>
-			<p id="deskripsi">I'm your usual ordinary student trying to learn software engineering.</p>
-			<p id="deskripsi">Born in Denpasar, Indonesia. Currently living in Bogor, West Java.</p>
-			<p id="deskripsi">Interested in Game Developing and Web Developing.</p>
-		</section>
-		<section id="section-project">
-			<h1 id="section-project-title">Mini Projects i've made</h1>
-            <p id="deskripsi">All projects are made by me with a little bit of help from friends.</p>
-			<p id="deskripsi">(All projects are in bahasa, probably would add english version soon... maybe).</p>
-			<div id="project-list">
-                <ul>
-                    <li><a href="https://github.com/ravabasya06/Gunting-Batu-Kertas" target="_blank"><i class="far fa-hand-rock"></i> Rock, Paper, Scissors with <span style="color: #5d8aa8;">Python</span></a></li>
-                    <li><a href="https://github.com/ravabasya06/Number-Guesser-Game" target="_blank"><i class="fas-solid fa-5"></i> Number Guessing Game with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-                    <li><a href="https://github.com/ravabasya06/Penghitung-BMI" target="_blank"><i class="fas fa-calculator"></i> BMI Calculator with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-					<li><a href="https://github.com/ravabasya06/Perhitungan-Fibonacci" target="_blank"><i class="fas fa-calculator"></i> Fibonacci Calculator with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-					<li><a href="https://github.com/ravabasya06/Tugas-Web-Login" target="_blank"><i class="fas fa-globe"></i> Login Web with <span style="color: #e7894b;">HTML</span> & <span style="color: #543e7a;">CSS</span></a></li>
-					<li><a href="#section-project" target=""><i class=""></i> Future Project with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-					<li><a href="#section-project" target=""><i class=""></i> Future Project with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-					<li><a href="#section-project" target=""><i class=""></i> Future Project with <span style="color: #5d8aa8;">Python</span> & <span style="color: #002FA7;">Lua</span></a></li>
-                </ul>
-            </div>
-		</section>
-		<section id="section-skills">
-			<h1 id="section-skills-title">What can i do?</h1>
-            <p id="deskripsi">Here are some stuff i could do.</p>
-			<p id="deskripsi">Might not be the best at some things.</p>
-			<div id="skills-list">
-				<ul>
-					<li>Basic stuff at <span style="color: #5d8aa8;">Python</span></li>
-					<li>Basic stuff at <span style="color: #002FA7;">Lua</span></li>
-					<li><span style="color: #e7894b;">HTML</span> & <span style="color: #543e7a;">CSS</span></li>
-				</ul>
-			</div>
-		</section>
-        <section id="section-socmed">
-            <p>Follow me on :</p>
-            <div>
-                <a id="socmed-icon" href="https://github.com/ravabasya06" target="_blank"><img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'> Github</a>
-                <a id="socmed-icon" href="https://instagram.com/ravabasya06" target="_blank"><img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='twitter' height='40'> Instagram</a>
-                <a id="socmed-icon" href="https://twitter.com/ravabasya06" target="_blank"><img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'> Twitter</a>
-                <a id="socmed-icon" href="https://www.youtube.com/channel/UCB9VKtuomYbIWu0qEKQiLQQ" target="_blank"><img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'> YouTube</a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://64.media.tumblr.com/2e972021e2ea47370b169477771e599b/e05ed8993097dd72-36/s640x960/3c63772d0b9edde091e4889a5fb0b1624e35e111.jpg"
+    />
+    <script
+      src="https://kit.fontawesome.com/c328d8982e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rava Basya | Portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ravabasya06" />
+  </head>
+  <body>
+    <main id="main-page">
+      <nav id="navbar">
+        <p id="nav-title">RavGX</p>
+        <ul>
+          <li>
+            <a class="navlink" href="#"
+              >About <i class="fas fa-info-circle"></i
+            ></a>
+          </li>
+          <li>
+            <a class="navlink" href="#section-project"
+              >Project <i class="fas fa-tools"></i
+            ></a>
+          </li>
+          <li>
+            <a class="navlink" href="#section-socmed"
+              >Social Media <i class="fas fa-icons"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <section id="section-profile">
+        <br />
+        <a href="https://osu.ppy.sh/users/13606756" target="_blank"
+          ><img
+            id="profile-image"
+            src="https://64.media.tumblr.com/4e779bfe879ae3bfee076aebbe44e551/fd0e6d60479e44d2-b7/s540x810/842bf08c51a9f9775014b1f4574f417d2c680f69.jpg"
+        /></a>
+        <h1 id="judul">Hello, i'm Rava.</h1>
+        <p class="white">
+          I'm your usual ordinary student trying to learn software engineering.
+        </p>
+        <p class="white">
+          Born in Denpasar, Indonesia. Currently living in Bogor, West Java.
+        </p>
+        <p class="white">Interested in Game Developing and Web Developing.</p>
+        <p class="white">
+          You could check the source code of this portofolio.
+          <a
+            class="link white"
+            href="https://github.com/ravabasya06/Simple-Portofolio"
+            >Click Me!</a
+          >
+        </p>
+      </section>
+      <div id="inside-part">
+        <section id="section-project">
+          <h1 id="section-project-title">Mini Projects i've made</h1>
+          <p class="white">
+            All projects are made by me with a little bit of help from friends.
+          </p>
+          <p class="white">
+            (All projects are in bahasa, probably would add english version
+            soon... maybe).
+          </p>
+          <div id="project-list">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/ravabasya06/Gunting-Batu-Kertas"
+                  target="_blank"
+                  ><i class="far fa-hand-rock"></i> Rock, Paper, Scissors with
+                  <span style="color: #5d8aa8">Python</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ravabasya06/Number-Guesser-Game"
+                  target="_blank"
+                  ><i class="fas-solid fa-5"></i> Number Guessing Game with
+                  <span style="color: #5d8aa8">Python</span> &
+                  <span style="color: #002fa7">Lua</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ravabasya06/Penghitung-BMI"
+                  target="_blank"
+                  ><i class="fas fa-calculator"></i> BMI Calculator with
+                  <span style="color: #5d8aa8">Python</span> &
+                  <span style="color: #002fa7">Lua</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ravabasya06/Perhitungan-Fibonacci"
+                  target="_blank"
+                  ><i class="fas fa-calculator"></i> Fibonacci Calculator with
+                  <span style="color: #5d8aa8">Python</span> &
+                  <span style="color: #002fa7">Lua</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ravabasya06/Tugas-Web-Login"
+                  target="_blank"
+                  ><i class="fas fa-globe"></i> Login Web with
+                  <span style="color: #e7894b">HTML</span> &
+                  <span style="color: #543e7a">CSS</span></a
+                >
+              </li>
+              <li>
+                <a href="#section-project" target="_blank"
+                  ><i class="fa-solid fa-dice"></i> Gacha Simulation with
+                  <span style="color: #5d8aa8">Python</span></a
+                >
+              </li>
+              <li>
+                <a href="#section-project" target=""
+                  ><i class="fas fa-globe"></i> Bernkastel Appreciation Site
+                  with <span style="color: #e7894b">HTML</span> &
+                  <span style="color: #543e7a">CSS</span></a
+                >
+              </li>
+              <li>
+                <a href="#section-project" target=""
+                  ><i class=""></i> Future Project with
+                  <span style="color: #5d8aa8">Python</span> &
+                  <span style="color: #002fa7">Lua</span></a
+                >
+              </li>
+            </ul>
+          </div>
         </section>
-	</main>
-	<footer id="footer"></footer>
-</body>
+        <section id="section-skills">
+          <h1 id="section-skills-title">What can i do?</h1>
+          <p class="white">
+            Here are some stuff i could do. Might not be the best at some
+            things.
+          </p>
+          <div id="skills-list">
+            <ul>
+              <li>
+                Basic stuff at <span style="color: #5d8aa8">Python </span
+                ><i class="fa-brands fa-python"></i>
+              </li>
+              <li>
+                Basic backend with <span style="color: #5d8aa8">PHP</span>
+                <i class="fa-brands fa-php"></i>
+              </li>
+              <li>
+                Basic Programming in Roblox with
+                <span style="color: #002fa7">Lua</span>
+              </li>
+              <li>
+                <span style="color: #e7894b">HTML </span>
+                <i class="fa-brands fa-html5"></i> &
+                <span style="color: #543e7a">CSS </span>
+                <i class="fa-brands fa-css3-alt"></i>
+              </li>
+              <li>
+                Database with
+                <span style="color: #5d8aa8">My</span
+                ><span style="color: #e7894b">SQL </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section id="section-socmed">
+        <p>Follow me on :</p>
+        <div>
+          <a
+            id="socmed-icon"
+            href="https://github.com/ravabasya06"
+            target="_blank"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+              alt="github"
+              height="40"
+            />
+            Github</a
+          >
+          <a
+            id="socmed-icon"
+            href="https://instagram.com/ravabasya06"
+            target="_blank"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg"
+              alt="twitter"
+              height="40"
+            />
+            Instagram</a
+          >
+          <a
+            id="socmed-icon"
+            href="https://twitter.com/ravabasya06"
+            target="_blank"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg"
+              alt="twitter"
+              height="40"
+            />
+            Twitter</a
+          >
+          <a
+            id="socmed-icon"
+            href="https://www.youtube.com/channel/UCB9VKtuomYbIWu0qEKQiLQQ"
+            target="_blank"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg"
+              alt="YouTube"
+              height="40"
+            />
+            YouTube</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      ©<a class="link white" href="https://github.com/ravabasya06">rav.</a>,
+      2023.
+    </footer>
+  </body>
 </html>
