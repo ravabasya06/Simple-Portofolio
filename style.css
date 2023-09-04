@@ -1,18 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@media screen and (max-width: 1086px) {
+  #section-project {
+    height: 500px;
+  }
+}
 @media screen and (max-width: 1000px) {
   #project-list {
     flex-direction: column;
   }
   #section-project {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 782px) {
+  #section-project {
     height: 600px;
   }
 }
-@media screen and (max-width: 750px) {
-  #project-list {
-    flex-direction: column;
-  }
+@media screen and (max-width: 774px) {
   #section-project {
-    height: 675px;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 746px) {
+  #section-project {
+    height: 735px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -36,9 +48,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  #navbar:hover {
-    height: 0px;
   }
   #project-list ul {
     flex-direction: column;
@@ -170,7 +179,7 @@ body {
   padding: 20px;
   text-align: center;
   width: auto;
-  height: 520px;
+  height: 600px;
   background-color: #2e293d;
 }
 #navbar li {
